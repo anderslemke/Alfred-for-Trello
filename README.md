@@ -22,14 +22,9 @@
 4. Go to your Trello.com board that you wish to use and copy the **Board ID**. You can find the Board ID just before your board name. For example: https://trello.com/b/<b>4f21cb176603c3</b>/yourname/       
 5. In the example above <b>4f21cb176603c3</b> is the board id.
 6. Enter the Board ID in /bin/bash script: **boardid=''**
-7. Within the Alfred for Trello workflow double click the Hotkey and set "Option + Command + t" or your preferred hotkey.
-
-
-###Optional
-You can specifify a list within your Trello board. 
-Simply open the /bin/bash script within the workflow and enter the name of the list. For example if your list name is inbox enter:  **listname='inbox'**.
-If you leave it blank **listname=''** the first list within your board will be used as default list.
-
+7. Enter the list name in /bin/bash script: **listname=''**
+8. Enter the username you want to assign new cards to in /bin/bash script: **username=''**
+9. Within the Alfred for Trello workflow double click the Hotkey and set "Option + Command + t" or your preferred hotkey.
 
 <br>
 
